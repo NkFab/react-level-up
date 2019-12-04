@@ -10,10 +10,13 @@
   "plugins": [
     "prettier"
   ],
+  "parser": "babel-eslint",
   "rules": {
     "prettier/prettier": [
       "error"
     ],
-    "react/jsx-one-expression-per-line": "off"
+    "react/jsx-one-expression-per-line": "off",
+    "import/prefer-default-export": "off",
+    "react/state-in-constructor": "off"
   }
 }
